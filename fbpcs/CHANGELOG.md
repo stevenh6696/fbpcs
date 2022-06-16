@@ -15,6 +15,10 @@ Types of changes
 
 ## [Unreleased]
 
+### Changed
+- Use C++20 CMake options for C++ compiler.
+- set result visibility one docker arg
+
 ## [1.6.0] - 2022-06-02
 
 ### Changed
