@@ -7,7 +7,7 @@ ARG tag="latest"
 FROM fbpcs/data-processing:${tag} as data_processing
 FROM fbpcs/emp-games:${tag} as emp_games
 # Tag for private-id is always latest
-FROM ghcr.io/facebookresearch/private-id:latest as private_id
+FROM ghcr.io/facebookresearch/private-id:d01229ac23f2ab8f28bc9f5eb825083de0e232ac as private_id
 
 FROM ubuntu:${os_release}
 # Set the timezone
