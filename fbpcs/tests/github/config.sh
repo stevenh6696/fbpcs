@@ -7,14 +7,15 @@
 # Usage: Github e2e configs
 
 ## Shared
-export E2E_CLUSTER_NAME="fbpcs-github-cicd" # keep
+export E2E_CLUSTER_NAME="fbpcs-github-cicd"
+export E2E_S3_BUCKET="fbpcs-github-e2e"
 
 ## Lift
 
 # Lift result comparison
-export LIFT_OUTPUT_PATH=s3://$E2E_S3_BUCKET/lift/outputs # keep
+export LIFT_OUTPUT_PATH=s3://$E2E_S3_BUCKET/lift/outputs
 
 ## Attribution
 
 # Attribution result comparison
-export ATTRIBUTION_OUTPUT_PATH=s3://$E2E_S3_BUCKET/attribution/outputs # keep
+export ATTRIBUTION_OUTPUT_PATH=s3://$E2E_S3_BUCKET/attribution/outputs
